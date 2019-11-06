@@ -9,6 +9,7 @@ package cn.edu.henau.day01;
 * */
 public class Demo03VariableNotice {
     public static void main(String[] args) {
+        System.out.println();
         int num1 = 30;
         System.out.println(num1);
 
