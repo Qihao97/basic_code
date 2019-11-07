@@ -12,5 +12,14 @@ public class Demo04PhoneMain {
 
         phone.call("贝尔");
         phone.sendMessage();
+
+        System.out.println("-*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*-");
+        Demo03_Phone phone1 = phone;
+        phone1.setBrand("Apple");
+        phone1.setPrice(8999);
+        System.out.println("phone1:");
+        System.out.println(phone1.toString());
+        System.out.println("phone:");
+        System.out.println(phone.toString());
     }
 }
