@@ -1,6 +1,7 @@
 package cn.edu.henau.demo1class;
 /*
 * 对象作为方法的返回值
+* 返回的其实是地址值
 * */
 public class Demo06_Object_Return {
     public static void main(String[] args) {
