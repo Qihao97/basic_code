@@ -12,6 +12,11 @@ public class Demo3Array {
         int lenA = arrayA.length;
         int lenB = arrayB.length;
 
+        for (int i = 0; i < arrayB.length; i++) {
+            System.out.print(arrayB[i] + "\t");
+        }
+        System.out.println();
+
         System.out.println(lenA);
         System.out.println(lenB);
 
