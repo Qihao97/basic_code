@@ -5,7 +5,7 @@ package cn.edu.henau.Math;
 *
 * 1.求绝对值：
 *   public static double abs(double num)
-* 2.向上取整：
+* 2.向上取整：向数轴的正方向取整
 *   public static double ceil(double num)
 * 3.向下取整:
 *   public static double floor(double num)
@@ -22,6 +22,7 @@ public class Demo_01_Math {
         System.out.println(Math.floor(d));
         System.out.println(Math.round(d));
 
+        System.out.println(Math.ceil(-10.9));
         System.out.println(Math.PI);
     }
 }
