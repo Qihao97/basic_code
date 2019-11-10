@@ -15,6 +15,12 @@ package cn.edu.henau.Extends;
 public class Demo_01_Extends {
     public static void main(String[] args) {
         Teacher_Extends teacher = new Teacher_Extends();
+
+//        Techer类继承了Employee类
         teacher.method();
+
+        Assistant_Extends assistant = new Assistant_Extends();
+        System.out.println("创建了一个Assistant对象：");
+        assistant.method();
     }
 }
