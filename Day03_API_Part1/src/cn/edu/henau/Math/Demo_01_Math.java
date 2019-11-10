@@ -11,6 +11,8 @@ package cn.edu.henau.Math;
 *   public static double floor(double num)
 * 4.四舍五入：
 *   public static long round(double num)
+*
+*   Math.PI代表近似的圆周率，double值
 * */
 public class Demo_01_Math {
     public static void main(String[] args) {
@@ -19,5 +21,7 @@ public class Demo_01_Math {
         System.out.println(Math.ceil(d));
         System.out.println(Math.floor(d));
         System.out.println(Math.round(d));
+
+        System.out.println(Math.PI);
     }
 }
