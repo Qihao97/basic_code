@@ -31,5 +31,17 @@ public class Demo_01_StringBuilder {
         StringBuilder sb2 = new StringBuilder("abc");
         System.out.println("sb2:  " + sb2);
 
+        System.out.println("****************************************");
+        StringBuilder sb3 = new StringBuilder();
+        System.out.println("添加数据之前的sb3： " + sb3);
+//        使用append方法，往sb3中添加数据
+//        append方法返回的是this，即调用方法的对象，因此调用append方法无需接收返回值
+        sb3.append("hello!");
+        System.out.println("添加数据之后的sb3：  " + sb3);
+
+        System.out.println("*******************************\n 链式编程：");
+        String str = null;
+        sb3.append("World!").append(123).append(true).append(1.23d).append(1233423137849739l).append('民').append(str);
+        System.out.println("一顿操作猛如虎，此时sb3是：： " + sb3);
     }
 }
