@@ -10,6 +10,7 @@ package cn.edu.henau.Abstract;
 *   1.不能够直接创建抽象类的 对象
 *   2.必须用一个子类来继承抽象父类
 *   3.子类必须覆盖重写抽象父类中所有的抽象方法，即实现所有的抽象方法
+*   4.创建子类对象进行使用
 * */
 public abstract class Animal {
 //    这是一个抽象方法，代表吃东西，没有具体实现
@@ -17,6 +18,6 @@ public abstract class Animal {
 
 //    这是普通的成员方法
     public void normalMethod(){
-        System.out.println("This is a normal method!");
+        System.out.println("This is a normal method from the baseClass Animal.");
     }
 }
