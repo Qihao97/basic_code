@@ -1,4 +1,4 @@
-package cn.edu.henau.This;
+package cn.edu.henau.Inheritancde.This;
 
 /*
 * 父类

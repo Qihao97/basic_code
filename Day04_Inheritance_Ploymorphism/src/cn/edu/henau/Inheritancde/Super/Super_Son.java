@@ -1,4 +1,4 @@
-package cn.edu.henau.Super;
+package cn.edu.henau.Inheritancde.Super;
 
 /*
 * 测试子类

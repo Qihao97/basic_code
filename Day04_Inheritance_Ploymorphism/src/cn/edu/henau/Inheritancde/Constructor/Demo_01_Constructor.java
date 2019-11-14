@@ -1,4 +1,4 @@
-package cn.edu.henau.Constructor;
+package cn.edu.henau.Inheritancde.Constructor;
 
 /*
 * 继承关系中父子类构造方法的访问特点

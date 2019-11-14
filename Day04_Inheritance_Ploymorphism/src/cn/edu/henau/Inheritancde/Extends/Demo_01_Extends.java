@@ -1,4 +1,4 @@
-package cn.edu.henau.Extends;
+package cn.edu.henau.Inheritancde.Extends;
 
 /*
 * 继承的格式:

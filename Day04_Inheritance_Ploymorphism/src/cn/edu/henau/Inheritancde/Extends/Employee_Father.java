@@ -1,4 +1,4 @@
-package cn.edu.henau.Extends;
+package cn.edu.henau.Inheritancde.Extends;
 
 /*
 * 定义一个员工类，作为父类来使用

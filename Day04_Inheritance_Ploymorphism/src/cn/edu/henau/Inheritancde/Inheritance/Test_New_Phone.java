@@ -1,4 +1,4 @@
-package cn.edu.henau.Inheritance;
+package cn.edu.henau.Inheritancde.Inheritance;
 
 /*
 * 子类，继承phone

@@ -1,4 +1,4 @@
-package cn.edu.henau.Override;
+package cn.edu.henau.Inheritancde.Override;
 
 /*
 重写（Override）：方法覆盖、覆写

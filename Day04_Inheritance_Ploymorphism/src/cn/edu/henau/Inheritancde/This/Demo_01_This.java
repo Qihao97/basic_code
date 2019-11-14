@@ -1,4 +1,4 @@
-package cn.edu.henau.This;
+package cn.edu.henau.Inheritancde.This;
 
 /*
 * super关键字用以访问父类的内容，而this关键字用以访问本类的内容，用法也有三种：

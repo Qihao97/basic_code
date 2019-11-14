@@ -1,4 +1,4 @@
-package cn.edu.henau.Override;
+package cn.edu.henau.Inheritancde.Override;
 
 /*
 * 基类

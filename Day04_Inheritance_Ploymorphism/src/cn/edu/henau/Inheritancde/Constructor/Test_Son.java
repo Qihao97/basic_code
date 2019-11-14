@@ -1,4 +1,4 @@
-package cn.edu.henau.Constructor;
+package cn.edu.henau.Inheritancde.Constructor;
 
 public class Test_Son extends Test_Father {
     public Test_Son() {

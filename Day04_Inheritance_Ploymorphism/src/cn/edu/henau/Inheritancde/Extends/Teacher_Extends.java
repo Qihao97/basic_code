@@ -1,4 +1,4 @@
-package cn.edu.henau.Extends;
+package cn.edu.henau.Inheritancde.Extends;
 
 /*
 * 定义一个讲师类，继承员工类

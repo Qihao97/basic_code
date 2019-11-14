@@ -1,4 +1,4 @@
-package cn.edu.henau.Extends;
+package cn.edu.henau.Inheritancde.Extends;
 
 /*
 * 子类，继承Employee类

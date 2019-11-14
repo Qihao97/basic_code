@@ -1,4 +1,4 @@
-package cn.edu.henau.Constructor;
+package cn.edu.henau.Inheritancde.Constructor;
 
 /*
 * 父类
