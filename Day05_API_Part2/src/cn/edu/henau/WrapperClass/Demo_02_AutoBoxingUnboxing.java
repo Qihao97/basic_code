@@ -23,6 +23,6 @@ public class Demo_02_AutoBoxingUnboxing {
         list.add(1);
 //        自动拆箱，右值实际相当于 list.get(0),intValue
         Integer i = list.get(0);
-
+        System.out.println(i);
     }
 }
