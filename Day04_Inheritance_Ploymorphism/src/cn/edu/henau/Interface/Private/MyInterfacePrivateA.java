@@ -1,0 +1,52 @@
+package cn.edu.henau.Interface.Private;
+
+/*
+* 问题描述：
+*     需要抽取一个公共方法，用来解决两个或者多个默认方法之间重复代码的问题
+*     但是此共有方法，不宜让实现类使用，应该是私有的
+*
+*     从java9 开始，接口中允许定义私有方法
+*        1.普通私有方法，解决多个默认方法之间的重复代码问题
+*           格式：
+*           private 返回值类型 方法名称(参数列表){
+*               方法体;
+*           }
+*        2.静态私有方法，解决多个静态方法之间重复代码问题
+*           格式：
+*           private static 返回值类型 方法名称(参数列表){
+*               方法体;
+*           }
+* */
+public interface MyInterfacePrivateA {
+    public default void methodDefault1(){
+        System.out.println("这是默认方法1.");
+        methodCommon();
+    }
+
+    public default void methodDefault2(){
+        System.out.println("这是默认方法2.");
+        methodCommon();
+    }
+
+    public default void methodCommon(){
+        System.out.println("AAA");
+        System.out.println("BBB");
+        System.out.println("CCC");
+    }
+
+    public static void methodCommon1(){
+        System.out.println("AAA");
+        System.out.println("BBB");
+        System.out.println("CCC");
+    }
+
+    public static void methodStatic1(){
+        System.out.println("这是静态方法1.");
+        methodCommon1();
+    }
+
+    public static void methodStatic2(){
+        System.out.println("这是静态方法2.");
+        methodCommon1();
+    }
+}
