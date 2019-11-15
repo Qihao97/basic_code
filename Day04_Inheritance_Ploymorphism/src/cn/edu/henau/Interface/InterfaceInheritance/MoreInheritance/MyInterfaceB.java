@@ -1,11 +1,11 @@
 package cn.edu.henau.Interface.InterfaceInheritance.MoreInheritance;
 
-public interface MyInterfaceA {
-    public abstract void methodA();
+public interface MyInterfaceB {
+    public abstract void methodB();
 
     public abstract void methodCommon();
 
     public default void methodDefault(){
-        System.out.println("AAA");
+        System.out.println("BBB");
     }
 }
