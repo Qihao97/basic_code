@@ -1,4 +1,4 @@
-package cn.edu.henau.Interface;
+package cn.edu.henau.Interface.demo1;
 
 /*
 * MyInterfaceABS的实现类

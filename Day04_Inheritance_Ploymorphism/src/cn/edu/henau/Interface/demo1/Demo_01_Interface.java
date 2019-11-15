@@ -1,4 +1,4 @@
-package cn.edu.henau.Interface;
+package cn.edu.henau.Interface.demo1;
 
 /*
 *  接口就是多个类的公共规范

@@ -1,4 +1,4 @@
-package cn.edu.henau.Interface;
+package cn.edu.henau.Interface.demo1;
 
 /*
 * 在任何版本的java中，接口都能定义抽象方法
