@@ -5,7 +5,7 @@ public class Main {
         MyInterfacePrivateAImpl impl = new MyInterfacePrivateAImpl();
         impl.methodDefault1();
         System.out.println("---------------");
-        MyInterfacePrivateA.methodCommon1();
+//        MyInterfacePrivateA.methodCommon1();
         System.out.println("---------------");
         MyInterfacePrivateA.methodStatic1();
         MyInterfacePrivateA.methodStatic2();
