@@ -24,6 +24,7 @@ public class Collention_Member_Method {
     public static void main(String[] args) {
 //        创建一个集合对象,可以使用多态
         Collection<String> coll = new ArrayList<>();
-        System.out.println(coll);
+        System.out.println(coll);   //重写了toString方法
+
     }
 }
