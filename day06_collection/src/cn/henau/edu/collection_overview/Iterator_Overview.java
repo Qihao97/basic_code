@@ -15,7 +15,7 @@ import java.util.Iterator;
  *
  * 方法:
  * boolean hasNext():如果仍有元素,返回true,否则返回false
- * E next(): 返回迭代的下一个元素
+ * E next(): 返回迭代的下一个元素,将指针向后移动一位
  * remove(): 从迭代器指向的collection中移除迭代器返回的最后一个元素(可选操作)
  *
  * Iterator迭代器,是一个接口,我们无法直接使用,需要使用Iterator接口的实现类对象,获取实现类的方式比较特殊
@@ -38,6 +38,8 @@ public class Iterator_Overview {
         ((ArrayList<String>) coll).add("杭州");
         ((ArrayList<String>) coll).add("襄阳");
         ((ArrayList<String>) coll).add("白河");
+
+//        获取迭代器的实现类对象,并且会把指针(索引)指向集合的 -1 索引
         Iterator<String> iterator = coll.iterator();
         System.out.println(iterator.hasNext());
         for (int i = 0; i < coll.size(); i++) {
@@ -61,5 +63,10 @@ public class Iterator_Overview {
          * */
 //        多态的方式创建一个实现类对象
         Iterator<String> iterator1 = coll.iterator();
+
+        System.out.println("--------华丽的分割线---------");
+        while(iterator1.hasNext()){
+            System.out.println(iterator1.next());
+        }
     }
 }
