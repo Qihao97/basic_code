@@ -19,7 +19,13 @@ public class DemoCollections {
 //        list.add("a");
 //        list.add("b");
 
+//        addAll()方法,往集合中添加多个元素
         Collections.addAll(list, "a","b","c","d","e","f","g");
         System.out.println(list);
+
+        System.out.println("调用shuffle()方法,打乱集合的顺序:");
+        Collections.shuffle(list);
+        System.out.println(list);
+
     }
 }
