@@ -1,4 +1,4 @@
-package cn.edu.henau.collectionSet;
+package cn.edu.henau.collectionSet.hash_set;
 
 import java.util.Objects;
 
