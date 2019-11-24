@@ -7,7 +7,7 @@ import java.util.Objects;
  * Date: 2019/11/23  20:57
  * Content:
  */
-public class Student {
+public class Student implements Comparable<Student> {
     private String name;
     private int age;
     private int num;
@@ -68,5 +68,14 @@ public class Student {
                 ", age=" + age +
                 ", num=" + num +
                 '}';
+    }
+
+//    重写排序的规则
+    @Override
+    public int compareTo(Student o) {
+//        return 0;  //返回0表示认为元素是相同的
+//        下面自定义比较的规则,比较两个人的年龄
+        return this.getAge() - o.getAge();    //按照年龄升序
+
     }
 }
