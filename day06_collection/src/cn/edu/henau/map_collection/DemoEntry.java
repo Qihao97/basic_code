@@ -1,7 +1,9 @@
 package cn.edu.henau.map_collection;
 
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
+import java.util.Set;
 
 /**
  * Author: Qihao
@@ -35,6 +37,14 @@ public class DemoEntry {
         for (Map.Entry<Integer, String> entry :
                 map.entrySet()) {
             System.out.println(entry.getKey() + " ... " + entry.getValue());
+        }
+
+        System.out.println("---------*****Gorgeous Dividing Line*****---------");
+        Set<Map.Entry<Integer, String>> entries = map.entrySet();
+        Iterator<Map.Entry<Integer, String>> it = entries.iterator();
+        while (it.hasNext()){
+            Map.Entry<Integer, String> next = it.next();
+            System.out.println("key is:  " + next.getKey() + "  Value is:  " + next.getValue());
         }
     }
 }
