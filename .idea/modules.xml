@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/Day04_Inheritance_Ploymorphism/Day04_Inheritance_Ploymorphism.iml" filepath="$PROJECT_DIR$/Day04_Inheritance_Ploymorphism/Day04_Inheritance_Ploymorphism.iml" />
       <module fileurl="file://$PROJECT_DIR$/Day05_API_Part2/Day05_API_Part2.iml" filepath="$PROJECT_DIR$/Day05_API_Part2/Day05_API_Part2.iml" />
       <module fileurl="file://$PROJECT_DIR$/day06_collection/day06_collection.iml" filepath="$PROJECT_DIR$/day06_collection/day06_collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day07_abnormal_multithreading/day07_abnormal_multithreading.iml" filepath="$PROJECT_DIR$/day07_abnormal_multithreading/day07_abnormal_multithreading.iml" />
     </modules>
   </component>
 </project>
