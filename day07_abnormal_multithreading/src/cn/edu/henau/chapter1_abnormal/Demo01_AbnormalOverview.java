@@ -1,5 +1,9 @@
 package cn.edu.henau.chapter1_abnormal;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 /**
  * Author: Qihao
  * Date: 2019/11/27  8:41
@@ -22,6 +26,37 @@ package cn.edu.henau.chapter1_abnormal;
 public class Demo01_AbnormalOverview {
     public static void main(String[] args) {
 //        Exception:编译时期的异常
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 
+        /**
+         * 写一段代码来处理异常,处理完异常后,程序可以继续执行
+         * */
+        try {
+            Date date = sdf.parse("2019-10-28");  //把字符串格式的日期,解析为Date格式的日期
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+//        可以将异常交给虚拟机处理,虚拟机处理方式就是中断,然后打印异常
+//        第二种方式是使用try catch方式来处理异常
+
+//      运行时期的异常
+        System.out.println("---------*****Gorgeous Dividing Line*****---------");
+        int[] arr = {1,2,3,4,5,6};
+        System.out.println(arr[0]);
+        try{
+//            try里面放的是可能会出现异常的代码
+            System.out.println(arr[10]);
+        }catch(Exception e){
+//            catch里面放的是异常的处理逻辑,即,出现异常后,如何处理的问题
+            System.out.println(e);
+        }
+        System.out.println("上述数组的索引越界异常已经处理");
+
+        /**
+         * Error: 错误
+         * OutOfMemoryError: Java heap space
+         * 内存溢出错误,创建的数组太大了,超出了给JVM分配的内存使用范围,错误必须要修改代码,才能解决
+         * */
+        int[] arrInt = new int[1024*1024*1024*1024*1024*1024*1024];
     }
 }
