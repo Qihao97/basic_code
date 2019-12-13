@@ -4,7 +4,7 @@ package cn.edu.henau.chapter1_abnormal;
  * Author: Qihao
  * Date: 2019/12/13  16:51
  * Content:
- * 如果finally有return语句,永远返回finally中的结果,应当避免该情况
+ * 如果finally有return语句,永远返回finally中的结果,应当避免该情况,即避免在finally里面写return语句
  */
 public class Demo12_Finally_Return {
     public static void main(String[] args) {
