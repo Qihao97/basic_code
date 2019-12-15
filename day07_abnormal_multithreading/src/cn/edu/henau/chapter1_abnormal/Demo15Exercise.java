@@ -28,7 +28,7 @@ public class Demo15Exercise {
     }
 
 //    step3: 定义一个方法,对用户输入的注册用户名进行判断
-    public static void checkUsername(String userName){
+    public static void checkUsername(String userName) throws Demo14RegisterException {
 //        遍历存储已经注册过的用户名数组,获取每一个用户名
         for (String name : userNames) {
 //            使用获取到的用户名和用户输入的用户名进行比较
