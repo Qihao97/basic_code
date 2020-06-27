@@ -20,7 +20,7 @@ public class Memory_Main {
         System.setOut(ps);
         for (int i = 0; i < 488; i ++){
 //            t_before = t - 2;
-            if ((t > 0) && (t < 60)){
+            if ((t >= 0) && (t < 60)){
                 mem = req.request1(t,mem,thread_group1);
             }
             if ((t >= 60) && (t < 180)){
