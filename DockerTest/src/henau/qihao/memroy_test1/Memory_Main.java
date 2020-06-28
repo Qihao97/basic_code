@@ -30,9 +30,15 @@ public class Memory_Main {
                 mem = req.request3(t,mem,thread_group3);
             }
 
-            mem = freeMem.free_req1(t,mem,thread_group1);
-            mem = freeMem.free_req2(t,mem,thread_group2);
-            mem = freeMem.free_req3(t,mem,thread_group3);
+            if((t >= 2) & (t < 62)){
+                mem = freeMem.free_req1(t,mem,thread_group1);
+            }
+            if ((t >= 62) & (t < 182)){
+                mem = freeMem.free_req2(t,mem,thread_group2);
+            }
+            if ((t >= 362) & (t < 482)){
+                mem = freeMem.free_req3(t,mem,thread_group3);
+            }
 
             System.out.println(t + "," + mem +'\n');
 
