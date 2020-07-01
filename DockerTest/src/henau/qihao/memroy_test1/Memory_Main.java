@@ -11,8 +11,8 @@ public class Memory_Main {
         int t = 0;
 //        int t_before;
         final int thread_group1 = 10;
-        final int thread_group2 = 10;
-        final int thread_group3 = 10;
+        final int thread_group2 = 30;
+        final int thread_group3 = 30;
         double mem = 0;
         Requests req = new Requests();
         Free_Mem freeMem = new Free_Mem();
